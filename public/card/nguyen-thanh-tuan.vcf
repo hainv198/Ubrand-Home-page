@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2023-10-10T09:31:35Z
+N;CHARSET=utf-8:;Nguyen Thanh Tuan;;;
+FN;CHARSET=utf-8:Nguyen Thanh Tuan
+ORG;CHARSET=utf-8:Nguyen Thanh Tuan
+ROLE;CHARSET=utf-8:CEO
+TEL;TYPE#WORK,VOICE:0964699499
+EMAIL;INTERNET:tuannt@saokim.com.vn
+URL;TYPE=Facebook:https://facebook.com/tuansaokimtuansaokim
+URL;TYPE=LinkedIn:https://linkedin.com/in/tuansaokim
+URL;TYPE=Youtube:https://youtube.com/saokimbranding
+END:VCARD
