@@ -15,7 +15,6 @@
                         <?php echo e(__('UBRAND đi kèm với các tính năng và tích hợp cho phép bạn làm được nhiều việc hơn là chỉ chia sẻ thông tin liên hệ')); ?>
 
                     </p>
-
                 </div>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
@@ -82,7 +81,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                <img src="<?php echo e(asset('landing/assets/img/icons/qr-code.svg')); ?>" alt="icon_footer" > <b class="accordion-title"><?php echo e(__('Hỗ trợ khách hàng')); ?></b>
+                                <img src="<?php echo e(asset('landing/assets/img/icons/customer.svg')); ?>" alt="icon_footer" > <b class="accordion-title"><?php echo e(__('Hỗ trợ khách hàng')); ?></b>
                             </button>
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
