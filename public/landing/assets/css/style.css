@@ -1133,6 +1133,235 @@ section.pricing {
     background-position: right center;
 }
 
+/*===  19102023 ====*/
+
+.nav-tabs .nav-link.active {
+    background-color: #2F38FF !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+}
+.tab_album_card {
+    padding: 15px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.slider_partner {
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slider_partner .slide-track-partner {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider_partner .slide-partner {
+    height: 100px;
+    width: 250px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars img {
+    width: 100px;
+}
+.testi-card .info {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.testi-card .info p {
+    font-size: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.form-contact-homepage {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.testi-card .info .icon {
+    position: absolute;
+    width: 100px;
+    right: 30px;
+    top: 30px;
+    pointer-events: none;
+}
+.author {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.icon-60 img {
+    width: 60px;
+    height: 60px;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.testi-card .info::after {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 100px;
+    width: 50px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    height: 20px;
+    border-left: 25px solid #fff;
+    border-right: 25px solid transparent;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+}
+.form-control {
+    padding: 25px 1em !important;
+}
+.form-select {
+    padding: 17px 1em !important;
+}
+
+.button_contact_form {
+    padding: 15px;
+    border:none;
+    border-radius: 25px 0;
+}
+
+.button_questions {
+    background-color: #fff !important;
+    padding: 30px !important;
+    border-radius: 15px;
+}
+
+.accordion_ques button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 15px;
+    color: #222;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border: none;
+    background: #fff;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.accordion_ques button:hover,
+.accordion_ques button:focus {
+    cursor: pointer;
+    color: #2F38FF;
+}
+
+.accordion_ques button:hover::after,
+.accordion_ques button:focus::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+}
+
+.accordion_ques button .accordion_ques-title {
+    /*padding: 1em 1.5em 1.1em 30px;*/
+}
+
+.accordion_ques button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 25px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+}
+
+.accordion_ques button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+}
+.accordion_ques button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+}
+
+.accordion_ques button[aria-expanded='true'] {
+    color: #2F38FF;
+}
+.accordion_ques button[aria-expanded='true'] .icon::after {
+    width: 0;
+}
+.accordion_ques button[aria-expanded='true'] + .accordion_ques-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+.accordion_ques .accordion_ques-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+.accordion_ques .accordion_ques-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 30px;
+    border: 1px solid #b6b5b5;
+}
+
+@media screen and (max-width: 612px) {
+    .form-contact-homepage {
+        padding: 30px 5px;
+        box-shadow: none;
+    }
+    .accordion_ques button {
+        margin-bottom: 0;
+    }
+    .accordion_ques .accordion_ques-content p {
+        padding: 7px;
+    }
+    .accordion_ques button .icon {
+        right: 6px;
+    }
+}
+
+
+/*===  finish 19102023 ===*/
+
 
 /* Hover Effects on Card */
 

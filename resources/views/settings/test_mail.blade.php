@@ -1,5 +1,5 @@
 
-   
+
 
     <form class="px-3" method="post" action="{{ route('test.send.mail') }}" id="test_email">
         @csrf
@@ -11,7 +11,7 @@
         <input type="hidden" name="mail_encryption" value="{{$data['mail_encryption']}}" />
         <input type="hidden" name="mail_from_address" value="{{$data['mail_from_address']}}" />
         <input type="hidden" name="mail_from_name" value="{{$data['mail_from_name']}}" />
-       
+
         <div class="row">
             <div class="col-md-12 mb-3">
                 <label for="email" class="form-label">{{ __('E-Mail Address')}}</label>
@@ -24,5 +24,4 @@
             </div>
         </div>
     </form>
-    
-    
+
