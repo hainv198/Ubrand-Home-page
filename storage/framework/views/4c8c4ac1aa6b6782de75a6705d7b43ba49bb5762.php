@@ -13,11 +13,14 @@
                         </h3>
                     </div>
                     <div class="form-contact-home-page mt-5">
-                        <form class="px-3" method="post" action="<?php echo e(route('test.send.mail')); ?>" id="test_email">
+                        <form class="px-3" method="post" id="send-mail-home">
+
+                            <?php echo csrf_field(); ?>
                             <div class="row">
                                 <div class="col">
                                     <label for="user_name" class="form-label"><?php echo e(__('Họ và tên*')); ?></label>
                                     <input type="text" class="form-control" id="user_name" name="user_name" required placeholder="Họ và tên..."/>
+
                                 </div>
                                 <div class="col">
                                     <label for="phone_number" class="form-label"><?php echo e(__('Số điện thoại*')); ?></label>
@@ -60,8 +63,9 @@
                             </div>
                             <div class="row mt-3">
                                 <div class="col-md-12 mb-2 mt-3 d-flex justify-content-start">
-                                    <button class="button_contact_form btn-primary">
-                                        Gửi ngay
+                                    <button class="button_contact_form btn-primary" id="submitFormBtn" type="submit">
+                                        <?php echo e(__('Gửi ngay')); ?>
+
                                         <img src="<?php echo e(asset('landing/assets/img/icons/Send-2.svg')); ?>" alt="icon_footer"></button>
                                 </div>
                             </div>
@@ -73,4 +77,52 @@
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+
+
+    $('#send-mail-home').on('submit',function(e){
+
+        e.preventDefault();
+        let name = $('#user_name').val();
+        let phone_number = $('#phone_number').val();
+        let email = $('#email').val();
+        let position = $('#position').val();
+        let link_url = $('#link_url').val();
+        let number_member = $('#number_member').val();
+        if(name && position && email && number_member !== '') {
+            var spinner = '<div class="spinner-border" role="status"> <span class="sr-only">Sending...</span></div> Đang gửi...'
+            $("#submitFormBtn").html(spinner).css('pointer-events','none')
+        }
+
+        $.ajax({
+            type: "POST",
+            url: '/send-mail-contact-home-page',
+            data: {
+                "_token": "<?php echo e(csrf_token()); ?>",
+                name: name,
+                phone_number:phone_number,
+                email:email,
+                position:position,
+                link_url:link_url,
+                number_member:number_member
+            },
+            success: function(data) {
+                $('#user_name').val('');
+                $('#phone_number').val('');
+                $('#email').val('');
+                $('#position').val('');
+                $('#link_url').val('');
+                $('#number_member').val('');
+                $("#submitFormBtn").text('Gửi ngay').css('pointer-events', 'auto')
+                $('#successMsg').fadeIn('fast').delay(3000).fadeOut('fast');
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                $("#submitFormBtn").text('Gửi ngay').css('pointer-events', 'auto')
+                console.log(error);
+            }
+        });
+    })
+</script>
 <?php /**PATH C:\Ubrand\resources\views/layouts/homepage/components/home/contact.blade.php ENDPATH**/ ?>

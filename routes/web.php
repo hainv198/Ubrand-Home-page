@@ -328,10 +328,12 @@ Route::group(['middleware' => ['verified']], function () {
     Route::post('disable-language', [LanguageController::class, 'disableLang'])->name('disablelanguage')->middleware(['auth', 'XSS']);
 });
 
-// them route get detail card 11/10
+// add route get detail card 11/10
  Route::get('/{slug}', [BusinessController::class, 'getcard'])->name('bussiness.get_card');
 
 
 Route::get('/download/{slug}', [BusinessController::class, 'getVcardDownload'])->name('bussiness.save');
 Route::post('appoinment/make-appointment', [AppointmentDeatailController::class, 'store'])->middleware('XSS')->name('appoinment.store');
 Route::post('/contacts/store/', [ContactsController::class, 'store'])->name('contacts.store');
+//Route::post('/send-mail-contact-home-page', [SystemController::class, 'sendMailHomePage'])->name('send.mail-home');
+Route::post('/send-mail-contact-home-page', 'SystemController@sendMailHomePage')->name('store');

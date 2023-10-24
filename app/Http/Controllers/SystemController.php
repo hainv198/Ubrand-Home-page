@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactHomepage;
 use Illuminate\Http\Request;
 use App\Models\Utility;
 use Illuminate\Support\Facades\Mail;
@@ -9,6 +10,7 @@ use App\Mail\testMail;
 use Artisan;
 use File;
 use App\Models\Webhook;
+use Illuminate\Support\Facades\Validator;
 
 class SystemController extends Controller
 {
@@ -257,6 +259,39 @@ class SystemController extends Controller
 
     }
 
+
+    public function sendMailHomePage(Request $request) {
+
+        $validator = Validator::make($request->all(),
+            [
+                'name' => 'required|max:255',
+                'phone_number' => 'required|max:12',
+                'email' => 'required|email',
+                'position' => 'required|max:255',
+                'link_url' => 'required',
+                'number_member' => 'required',
+            ]
+        );
+
+        if ($validator->fails()) {
+            $messages = $validator->getMessageBag();
+            return response()->json(
+                [
+                    'is_success' => false,
+                    'message' => $messages->first(),
+                ]
+            );
+        }
+        $data = $request->all();
+
+        Mail::to(env("MAIL_TO"))->send(new ContactHomepage($data));
+//
+        return response()->json([
+            'is_success' => true,
+            'message' => 'Email sent successfully!',
+        ]);
+
+    }
 
     public function testSendMail(Request $request)
     {

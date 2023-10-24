@@ -1,5 +1,5 @@
 
-   
+
 
     <form class="px-3" method="post" action="<?php echo e(route('test.send.mail')); ?>" id="test_email">
         <?php echo csrf_field(); ?>
@@ -11,7 +11,7 @@
         <input type="hidden" name="mail_encryption" value="<?php echo e($data['mail_encryption']); ?>" />
         <input type="hidden" name="mail_from_address" value="<?php echo e($data['mail_from_address']); ?>" />
         <input type="hidden" name="mail_from_name" value="<?php echo e($data['mail_from_name']); ?>" />
-       
+
         <div class="row">
             <div class="col-md-12 mb-3">
                 <label for="email" class="form-label"><?php echo e(__('E-Mail Address')); ?></label>
@@ -24,5 +24,5 @@
             </div>
         </div>
     </form>
-    
-    <?php /**PATH C:\Ubrand\resources\views/settings/test_mail.blade.php ENDPATH**/ ?>
+
+<?php /**PATH C:\Ubrand\resources\views/settings/test_mail.blade.php ENDPATH**/ ?>

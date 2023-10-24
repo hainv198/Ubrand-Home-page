@@ -10,6 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo e((Utility::getValByName('title_text')) ? Utility::getValByName('title_text') : config('app.name', 'vCardGo SaaS')); ?></title>
 
@@ -60,6 +61,10 @@
 <main id="wrap">
     <?php echo $__env->make('layouts.homepage.layouts.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     <section id="container">
+        <div class="alert alert-success" role="alert" id="successMsg" style="display: none;   position: fixed; right: 0; top: 90px; z-index: 9999999" >
+            <?php echo e(__('Cảm ơn bạn đã để lại thông tin liên lạc')); ?>
+
+        </div>
         <?php echo $__env->yieldContent('content_ubrand'); ?>
     </section>
     <?php echo $__env->make('layouts.homepage.layouts.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
@@ -98,6 +103,10 @@
     navSlide();
     //# sourceURL=pen.js
 </script>
+<script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
 
 </html>
 <?php /**PATH C:\Ubrand\resources\views/layouts/homepage/master.blade.php ENDPATH**/ ?>
