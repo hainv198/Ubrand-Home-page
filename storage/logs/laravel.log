@@ -192,3 +192,812 @@
 #60 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Ubrand\\\\publi...')
 #61 {main}
 "} 
+[2023-11-01 13:26:32] local.ERROR: Route [/] not defined. {"view":{"view":"C:\\Ubrand\\resources\\views\\layouts\\homepage\\layouts\\header.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-634658722 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1599</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-634658722\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","logo":"<pre class=sf-dump id=sf-dump-870317860 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"38 characters\">http://ubrand.vn/storage/uploads/logo/</span>\"
+</pre><script>Sfdump(\"sf-dump-870317860\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","setting":"<pre class=sf-dump id=sf-dump-885885994 data-indent-pad=\"  \"><span class=sf-dump-note>array:94</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>site_currency</span>\" => \"<span class=sf-dump-str title=\"3 characters\">USD</span>\"
+  \"<span class=sf-dump-key>site_currency_symbol</span>\" => \"<span class=sf-dump-str>$</span>\"
+  \"<span class=sf-dump-key>site_currency_symbol_position</span>\" => \"<span class=sf-dump-str title=\"3 characters\">pre</span>\"
+  \"<span class=sf-dump-key>site_date_format</span>\" => \"<span class=sf-dump-str title=\"6 characters\">M j, Y</span>\"
+  \"<span class=sf-dump-key>site_time_format</span>\" => \"<span class=sf-dump-str title=\"5 characters\">g:i A</span>\"
+  \"<span class=sf-dump-key>company_name</span>\" => \"\"
+  \"<span class=sf-dump-key>company_address</span>\" => \"\"
+  \"<span class=sf-dump-key>company_city</span>\" => \"\"
+  \"<span class=sf-dump-key>company_state</span>\" => \"\"
+  \"<span class=sf-dump-key>company_zipcode</span>\" => \"\"
+  \"<span class=sf-dump-key>company_country</span>\" => \"\"
+  \"<span class=sf-dump-key>company_telephone</span>\" => \"\"
+  \"<span class=sf-dump-key>company_email</span>\" => \"\"
+  \"<span class=sf-dump-key>company_email_from_name</span>\" => \"\"
+  \"<span class=sf-dump-key>invoice_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#INVO</span>\"
+  \"<span class=sf-dump-key>invoice_color</span>\" => \"<span class=sf-dump-str title=\"6 characters\">ffffff</span>\"
+  \"<span class=sf-dump-key>proposal_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#PROP</span>\"
+  \"<span class=sf-dump-key>proposal_color</span>\" => \"<span class=sf-dump-str title=\"6 characters\">ffffff</span>\"
+  \"<span class=sf-dump-key>bill_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#BILL</span>\"
+  \"<span class=sf-dump-key>bill_color</span>\" => \"<span class=sf-dump-str title=\"6 characters\">ffffff</span>\"
+  \"<span class=sf-dump-key>customer_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#CUST</span>\"
+  \"<span class=sf-dump-key>vender_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#VEND</span>\"
+  \"<span class=sf-dump-key>footer_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>footer_notes</span>\" => \"\"
+  \"<span class=sf-dump-key>invoice_template</span>\" => \"<span class=sf-dump-str title=\"9 characters\">template1</span>\"
+  \"<span class=sf-dump-key>bill_template</span>\" => \"<span class=sf-dump-str title=\"9 characters\">template1</span>\"
+  \"<span class=sf-dump-key>proposal_template</span>\" => \"<span class=sf-dump-str title=\"9 characters\">template1</span>\"
+  \"<span class=sf-dump-key>registration_number</span>\" => \"\"
+  \"<span class=sf-dump-key>vat_number</span>\" => \"\"
+  \"<span class=sf-dump-key>default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">Vi</span>\"
+  \"<span class=sf-dump-key>enable_stripe</span>\" => \"\"
+  \"<span class=sf-dump-key>enable_paypal</span>\" => \"\"
+  \"<span class=sf-dump-key>paypal_mode</span>\" => \"\"
+  \"<span class=sf-dump-key>paypal_client_id</span>\" => \"\"
+  \"<span class=sf-dump-key>paypal_secret_key</span>\" => \"\"
+  \"<span class=sf-dump-key>stripe_key</span>\" => \"\"
+  \"<span class=sf-dump-key>stripe_secret</span>\" => \"\"
+  \"<span class=sf-dump-key>decimal_number</span>\" => \"<span class=sf-dump-str>2</span>\"
+  \"<span class=sf-dump-key>tax_type</span>\" => \"\"
+  \"<span class=sf-dump-key>shipping_display</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>journal_prefix</span>\" => \"<span class=sf-dump-str title=\"4 characters\">#JUR</span>\"
+  \"<span class=sf-dump-key>display_landing_page</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>title_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>company_logo</span>\" => \"<span class=sf-dump-str title=\"13 characters\">logo-dark.png</span>\"
+  \"<span class=sf-dump-key>company_logo_light</span>\" => \"<span class=sf-dump-str title=\"14 characters\">logo-light.png</span>\"
+  \"<span class=sf-dump-key>company_favicon</span>\" => \"<span class=sf-dump-str title=\"11 characters\">favicon.png</span>\"
+  \"<span class=sf-dump-key>signup_button</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>email_verification</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>color</span>\" => \"<span class=sf-dump-str title=\"7 characters\">theme-6</span>\"
+  \"<span class=sf-dump-key>cust_theme_bg</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cust_darklayout</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>SITE_RTL</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>storage_setting</span>\" => \"<span class=sf-dump-str title=\"5 characters\">local</span>\"
+  \"<span class=sf-dump-key>local_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>local_storage_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>s3_key</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_secret</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_region</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_bucket</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_url</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_endpoint</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>s3_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>wasabi_key</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_secret</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_region</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_bucket</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_url</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_root</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>wasabi_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>google_calender_id</span>\" => \"\"
+  \"<span class=sf-dump-key>google_calender_json_file</span>\" => \"\"
+  \"<span class=sf-dump-key>Google_Calendar</span>\" => \"\"
+  \"<span class=sf-dump-key>enable_cookie</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>necessary_cookies</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>cookie_logging</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cookie_title</span>\" => \"<span class=sf-dump-str title=\"15 characters\">We use cookies!</span>\"
+  \"<span class=sf-dump-key>cookie_description</span>\" => \"<span class=sf-dump-str title=\"130 characters\">Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_title</span>\" => \"<span class=sf-dump-str title=\"26 characters\">Strictly necessary cookies</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_description</span>\" => \"<span class=sf-dump-str title=\"128 characters\">These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly</span>\"
+  \"<span class=sf-dump-key>more_information_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>contactus_url</span>\" => \"<span class=sf-dump-str>#</span>\"
+  \"<span class=sf-dump-key>chatgpt_key</span>\" => \"<span class=sf-dump-str title=\"51 characters\">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</span>\"
+  \"<span class=sf-dump-key>disable_lang</span>\" => \"\"
+  \"<span class=sf-dump-key>company_default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">en</span>\"
+  \"<span class=sf-dump-key>mail_driver</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_host</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_port</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_username</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_password</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_encryption</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_from_address</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_from_name</span>\" => \"\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-885885994\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","set_cookie":"<pre class=sf-dump id=sf-dump-1836839116 data-indent-pad=\"  \"><span class=sf-dump-note>array:9</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>enable_cookie</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">Vi</span>\"
+  \"<span class=sf-dump-key>cookie_title</span>\" => \"<span class=sf-dump-str title=\"15 characters\">We use cookies!</span>\"
+  \"<span class=sf-dump-key>cookie_description</span>\" => \"<span class=sf-dump-str title=\"130 characters\">Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_title</span>\" => \"<span class=sf-dump-str title=\"26 characters\">Strictly necessary cookies</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_description</span>\" => \"<span class=sf-dump-str title=\"128 characters\">These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly</span>\"
+  \"<span class=sf-dump-key>contact_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>more_information_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>contactus_url</span>\" => \"<span class=sf-dump-str>#</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1836839116\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","langSetting":"<pre class=sf-dump id=sf-dump-1357300209 data-indent-pad=\"  \"><span class=sf-dump-note>array:26</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>local_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>wasabi_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>s3_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>local_storage_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>wasabi_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>s3_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>title_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>footer_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">Vi</span>\"
+  \"<span class=sf-dump-key>display_landing_page</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>signup_button</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>email_verification</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>color</span>\" => \"<span class=sf-dump-str title=\"7 characters\">theme-6</span>\"
+  \"<span class=sf-dump-key>cust_theme_bg</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>SITE_RTL</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cust_darklayout</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cookie_title</span>\" => \"<span class=sf-dump-str title=\"15 characters\">We use cookies!</span>\"
+  \"<span class=sf-dump-key>cookie_description</span>\" => \"<span class=sf-dump-str title=\"130 characters\">Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it</span>\"
+  \"<span class=sf-dump-key>necessary_cookies</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_title</span>\" => \"<span class=sf-dump-str title=\"26 characters\">Strictly necessary cookies</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_description</span>\" => \"<span class=sf-dump-str title=\"128 characters\">These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly</span>\"
+  \"<span class=sf-dump-key>more_information_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>contactus_url</span>\" => \"<span class=sf-dump-str>#</span>\"
+  \"<span class=sf-dump-key>enable_cookie</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cookie_logging</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>chatgpt_key</span>\" => \"<span class=sf-dump-str title=\"51 characters\">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</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1357300209\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [/] not defined. at C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('/', Array, true)
+#1 C:\\Ubrand\\resources\\views\\layouts\\homepage\\layouts\\header.blade.php(15): route('/')
+#2 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#3 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#5 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#6 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#7 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Ubrand\\resources\\views\\layouts\\homepage\\master.blade.php(62): Illuminate\\View\\View->render()
+#10 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#11 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#13 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#14 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#15 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Ubrand\\resources\\views\\layouts\\homepage\\components\\about\\index.blade.php(4): Illuminate\\View\\View->render()
+#18 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#19 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#21 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#22 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#23 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Ubrand\\app\\Http\\Middleware\\XSS.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#41 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#48 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#49 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#50 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#51 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#52 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#69 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#70 C:\\Ubrand\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#71 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Ubrand\\\\publi...')
+#72 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [/] not defined. at C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('/', Array, true)
+#1 C:\\Ubrand\\storage\\framework\\views\\134260255948a7143de068e49f375bd2626ccf5d.php(9): route('/')
+#2 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#3 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#5 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#6 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#7 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Ubrand\\storage\\framework\\views\\df5c52c394f439027a257b1df17f6eaa8641994a.php(62): Illuminate\\View\\View->render()
+#10 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#11 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#13 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#14 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#15 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Ubrand\\storage\\framework\\views\\917c6771d207ed26cad8f8fc4fb39994d1d863bb.php(6): Illuminate\\View\\View->render()
+#18 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#19 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#21 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#22 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#23 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Ubrand\\app\\Http\\Middleware\\XSS.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#41 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#48 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#49 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#50 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#51 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#52 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#69 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#70 C:\\Ubrand\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#71 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Ubrand\\\\publi...')
+#72 {main}
+"} 
+[2023-11-01 13:26:59] local.ERROR: Route [/home] not defined. {"view":{"view":"C:\\Ubrand\\resources\\views\\layouts\\homepage\\layouts\\header.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1189392234 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1598</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1189392234\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","plans":"<pre class=sf-dump id=sf-dump-1239804379 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#1630</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-note title=\"App\\Models\\Plan
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Plan</span> {<a class=sf-dump-ref>#1628</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">plans</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:17</span> [ &#8230;17]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:17</span> [ &#8230;17]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:14</span> [ &#8230;14]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+    </samp>}
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-note title=\"App\\Models\\Plan
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Plan</span> {<a class=sf-dump-ref>#1627</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">plans</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:17</span> [ &#8230;17]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:17</span> [ &#8230;17]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:14</span> [ &#8230;14]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+    </samp>}
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1239804379\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","get_section":"<pre class=sf-dump id=sf-dump-1603292996 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#1635</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1603292996\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","logo":"<pre class=sf-dump id=sf-dump-460723107 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"38 characters\">http://ubrand.vn/storage/uploads/logo/</span>\"
+</pre><script>Sfdump(\"sf-dump-460723107\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","setting":"<pre class=sf-dump id=sf-dump-525244498 data-indent-pad=\"  \"><span class=sf-dump-note>array:94</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>site_currency</span>\" => \"<span class=sf-dump-str title=\"3 characters\">USD</span>\"
+  \"<span class=sf-dump-key>site_currency_symbol</span>\" => \"<span class=sf-dump-str>$</span>\"
+  \"<span class=sf-dump-key>site_currency_symbol_position</span>\" => \"<span class=sf-dump-str title=\"3 characters\">pre</span>\"
+  \"<span class=sf-dump-key>site_date_format</span>\" => \"<span class=sf-dump-str title=\"6 characters\">M j, Y</span>\"
+  \"<span class=sf-dump-key>site_time_format</span>\" => \"<span class=sf-dump-str title=\"5 characters\">g:i A</span>\"
+  \"<span class=sf-dump-key>company_name</span>\" => \"\"
+  \"<span class=sf-dump-key>company_address</span>\" => \"\"
+  \"<span class=sf-dump-key>company_city</span>\" => \"\"
+  \"<span class=sf-dump-key>company_state</span>\" => \"\"
+  \"<span class=sf-dump-key>company_zipcode</span>\" => \"\"
+  \"<span class=sf-dump-key>company_country</span>\" => \"\"
+  \"<span class=sf-dump-key>company_telephone</span>\" => \"\"
+  \"<span class=sf-dump-key>company_email</span>\" => \"\"
+  \"<span class=sf-dump-key>company_email_from_name</span>\" => \"\"
+  \"<span class=sf-dump-key>invoice_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#INVO</span>\"
+  \"<span class=sf-dump-key>invoice_color</span>\" => \"<span class=sf-dump-str title=\"6 characters\">ffffff</span>\"
+  \"<span class=sf-dump-key>proposal_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#PROP</span>\"
+  \"<span class=sf-dump-key>proposal_color</span>\" => \"<span class=sf-dump-str title=\"6 characters\">ffffff</span>\"
+  \"<span class=sf-dump-key>bill_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#BILL</span>\"
+  \"<span class=sf-dump-key>bill_color</span>\" => \"<span class=sf-dump-str title=\"6 characters\">ffffff</span>\"
+  \"<span class=sf-dump-key>customer_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#CUST</span>\"
+  \"<span class=sf-dump-key>vender_prefix</span>\" => \"<span class=sf-dump-str title=\"5 characters\">#VEND</span>\"
+  \"<span class=sf-dump-key>footer_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>footer_notes</span>\" => \"\"
+  \"<span class=sf-dump-key>invoice_template</span>\" => \"<span class=sf-dump-str title=\"9 characters\">template1</span>\"
+  \"<span class=sf-dump-key>bill_template</span>\" => \"<span class=sf-dump-str title=\"9 characters\">template1</span>\"
+  \"<span class=sf-dump-key>proposal_template</span>\" => \"<span class=sf-dump-str title=\"9 characters\">template1</span>\"
+  \"<span class=sf-dump-key>registration_number</span>\" => \"\"
+  \"<span class=sf-dump-key>vat_number</span>\" => \"\"
+  \"<span class=sf-dump-key>default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">Vi</span>\"
+  \"<span class=sf-dump-key>enable_stripe</span>\" => \"\"
+  \"<span class=sf-dump-key>enable_paypal</span>\" => \"\"
+  \"<span class=sf-dump-key>paypal_mode</span>\" => \"\"
+  \"<span class=sf-dump-key>paypal_client_id</span>\" => \"\"
+  \"<span class=sf-dump-key>paypal_secret_key</span>\" => \"\"
+  \"<span class=sf-dump-key>stripe_key</span>\" => \"\"
+  \"<span class=sf-dump-key>stripe_secret</span>\" => \"\"
+  \"<span class=sf-dump-key>decimal_number</span>\" => \"<span class=sf-dump-str>2</span>\"
+  \"<span class=sf-dump-key>tax_type</span>\" => \"\"
+  \"<span class=sf-dump-key>shipping_display</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>journal_prefix</span>\" => \"<span class=sf-dump-str title=\"4 characters\">#JUR</span>\"
+  \"<span class=sf-dump-key>display_landing_page</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>title_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>company_logo</span>\" => \"<span class=sf-dump-str title=\"13 characters\">logo-dark.png</span>\"
+  \"<span class=sf-dump-key>company_logo_light</span>\" => \"<span class=sf-dump-str title=\"14 characters\">logo-light.png</span>\"
+  \"<span class=sf-dump-key>company_favicon</span>\" => \"<span class=sf-dump-str title=\"11 characters\">favicon.png</span>\"
+  \"<span class=sf-dump-key>signup_button</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>email_verification</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>color</span>\" => \"<span class=sf-dump-str title=\"7 characters\">theme-6</span>\"
+  \"<span class=sf-dump-key>cust_theme_bg</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cust_darklayout</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>SITE_RTL</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>storage_setting</span>\" => \"<span class=sf-dump-str title=\"5 characters\">local</span>\"
+  \"<span class=sf-dump-key>local_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>local_storage_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>s3_key</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_secret</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_region</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_bucket</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_url</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_endpoint</span>\" => \"\"
+  \"<span class=sf-dump-key>s3_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>s3_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>wasabi_key</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_secret</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_region</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_bucket</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_url</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_root</span>\" => \"\"
+  \"<span class=sf-dump-key>wasabi_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>wasabi_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>google_calender_id</span>\" => \"\"
+  \"<span class=sf-dump-key>google_calender_json_file</span>\" => \"\"
+  \"<span class=sf-dump-key>Google_Calendar</span>\" => \"\"
+  \"<span class=sf-dump-key>enable_cookie</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>necessary_cookies</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>cookie_logging</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cookie_title</span>\" => \"<span class=sf-dump-str title=\"15 characters\">We use cookies!</span>\"
+  \"<span class=sf-dump-key>cookie_description</span>\" => \"<span class=sf-dump-str title=\"130 characters\">Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_title</span>\" => \"<span class=sf-dump-str title=\"26 characters\">Strictly necessary cookies</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_description</span>\" => \"<span class=sf-dump-str title=\"128 characters\">These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly</span>\"
+  \"<span class=sf-dump-key>more_information_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>contactus_url</span>\" => \"<span class=sf-dump-str>#</span>\"
+  \"<span class=sf-dump-key>chatgpt_key</span>\" => \"<span class=sf-dump-str title=\"51 characters\">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</span>\"
+  \"<span class=sf-dump-key>disable_lang</span>\" => \"\"
+  \"<span class=sf-dump-key>company_default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">en</span>\"
+  \"<span class=sf-dump-key>mail_driver</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_host</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_port</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_username</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_password</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_encryption</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_from_address</span>\" => \"\"
+  \"<span class=sf-dump-key>mail_from_name</span>\" => \"\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-525244498\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","set_cookie":"<pre class=sf-dump id=sf-dump-1917128011 data-indent-pad=\"  \"><span class=sf-dump-note>array:9</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>enable_cookie</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">Vi</span>\"
+  \"<span class=sf-dump-key>cookie_title</span>\" => \"<span class=sf-dump-str title=\"15 characters\">We use cookies!</span>\"
+  \"<span class=sf-dump-key>cookie_description</span>\" => \"<span class=sf-dump-str title=\"130 characters\">Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_title</span>\" => \"<span class=sf-dump-str title=\"26 characters\">Strictly necessary cookies</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_description</span>\" => \"<span class=sf-dump-str title=\"128 characters\">These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly</span>\"
+  \"<span class=sf-dump-key>contact_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>more_information_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>contactus_url</span>\" => \"<span class=sf-dump-str>#</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1917128011\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","langSetting":"<pre class=sf-dump id=sf-dump-787287058 data-indent-pad=\"  \"><span class=sf-dump-note>array:26</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>local_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>wasabi_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>s3_storage_validation</span>\" => \"<span class=sf-dump-str title=\"29 characters\">jpg,jpeg,png,xlsx,xls,csv,pdf</span>\"
+  \"<span class=sf-dump-key>local_storage_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>wasabi_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>s3_max_upload_size</span>\" => \"<span class=sf-dump-str title=\"7 characters\">2048000</span>\"
+  \"<span class=sf-dump-key>title_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>footer_text</span>\" => \"<span class=sf-dump-str title=\"6 characters\">Ubrand</span>\"
+  \"<span class=sf-dump-key>default_language</span>\" => \"<span class=sf-dump-str title=\"2 characters\">Vi</span>\"
+  \"<span class=sf-dump-key>display_landing_page</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>signup_button</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>email_verification</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>color</span>\" => \"<span class=sf-dump-str title=\"7 characters\">theme-6</span>\"
+  \"<span class=sf-dump-key>cust_theme_bg</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>SITE_RTL</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cust_darklayout</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cookie_title</span>\" => \"<span class=sf-dump-str title=\"15 characters\">We use cookies!</span>\"
+  \"<span class=sf-dump-key>cookie_description</span>\" => \"<span class=sf-dump-str title=\"130 characters\">Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it</span>\"
+  \"<span class=sf-dump-key>necessary_cookies</span>\" => \"<span class=sf-dump-str title=\"2 characters\">on</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_title</span>\" => \"<span class=sf-dump-str title=\"26 characters\">Strictly necessary cookies</span>\"
+  \"<span class=sf-dump-key>strictly_cookie_description</span>\" => \"<span class=sf-dump-str title=\"128 characters\">These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly</span>\"
+  \"<span class=sf-dump-key>more_information_description</span>\" => \"<span class=sf-dump-str title=\"70 characters\">For any queries in relation to our policy on cookies and your choices,</span>\"
+  \"<span class=sf-dump-key>contactus_url</span>\" => \"<span class=sf-dump-str>#</span>\"
+  \"<span class=sf-dump-key>enable_cookie</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>cookie_logging</span>\" => \"<span class=sf-dump-str title=\"3 characters\">off</span>\"
+  \"<span class=sf-dump-key>chatgpt_key</span>\" => \"<span class=sf-dump-str title=\"51 characters\">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</span>\"
+</samp>]
+</pre><script>Sfdump(\"sf-dump-787287058\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [/home] not defined. at C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('/home', Array, true)
+#1 C:\\Ubrand\\resources\\views\\layouts\\homepage\\layouts\\header.blade.php(15): route('/home')
+#2 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#3 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#5 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#6 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#7 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Ubrand\\resources\\views\\layouts\\homepage\\master.blade.php(62): Illuminate\\View\\View->render()
+#10 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#11 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#13 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#14 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#15 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Ubrand\\resources\\views\\layouts\\homepage\\components\\home\\homepage.blade.php(14): Illuminate\\View\\View->render()
+#18 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#19 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#21 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#22 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#23 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Ubrand\\app\\Http\\Middleware\\XSS.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#41 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#48 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#49 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#50 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#51 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#52 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#69 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#70 C:\\Ubrand\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#71 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Ubrand\\\\publi...')
+#72 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [/home] not defined. at C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('/home', Array, true)
+#1 C:\\Ubrand\\storage\\framework\\views\\134260255948a7143de068e49f375bd2626ccf5d.php(9): route('/home')
+#2 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#3 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#5 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#6 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#7 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Ubrand\\storage\\framework\\views\\df5c52c394f439027a257b1df17f6eaa8641994a.php(62): Illuminate\\View\\View->render()
+#10 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#11 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#13 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#14 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#15 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Ubrand\\storage\\framework\\views\\6376252e837d9f14eb0268d54e1d0674485ce5f0.php(14): Illuminate\\View\\View->render()
+#18 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#19 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#21 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#22 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#23 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Ubrand\\app\\Http\\Middleware\\XSS.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#41 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#48 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#49 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#50 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#51 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#52 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#69 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#70 C:\\Ubrand\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#71 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Ubrand\\\\publi...')
+#72 {main}
+"} 
+[2023-11-03 09:44:50] local.ERROR: Undefined variable $data {"view":{"view":"C:\\Ubrand\\resources\\views\\layouts\\homepage\\components\\about\\blog.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-882022101 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1599</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-882022101\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Undefined variable $data at C:\\Ubrand\\resources\\views\\layouts\\homepage\\components\\about\\blog.blade.php:3)
+[stacktrace]
+#0 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined varia...', 'C:\\\\Ubrand\\\\stora...', 3)
+#1 C:\\Ubrand\\resources\\views\\layouts\\homepage\\components\\about\\blog.blade.php(3): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined varia...', 'C:\\\\Ubrand\\\\stora...', 3)
+#2 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#3 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#5 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#6 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#7 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Ubrand\\resources\\views\\layouts\\homepage\\components\\about\\index.blade.php(6): Illuminate\\View\\View->render()
+#10 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#11 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#13 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#14 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#15 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#18 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#19 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#20 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#21 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#22 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Ubrand\\app\\Http\\Middleware\\XSS.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#33 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#41 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#42 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#43 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#44 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#61 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#62 C:\\Ubrand\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#63 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Ubrand\\\\publi...')
+#64 {main}
+
+[previous exception] [object] (ErrorException(code: 0): Undefined variable $data at C:\\Ubrand\\storage\\framework\\views\\edf59c376d501ddb121c74945e31fd0c6dbcbd8c.php:3)
+[stacktrace]
+#0 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined varia...', 'C:\\\\Ubrand\\\\stora...', 3)
+#1 C:\\Ubrand\\storage\\framework\\views\\edf59c376d501ddb121c74945e31fd0c6dbcbd8c.php(3): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'Undefined varia...', 'C:\\\\Ubrand\\\\stora...', 3)
+#2 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#3 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#5 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#6 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#7 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Ubrand\\storage\\framework\\views\\917c6771d207ed26cad8f8fc4fb39994d1d863bb.php(6): Illuminate\\View\\View->render()
+#10 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Ubrand\\\\stora...')
+#11 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Ubrand\\\\stora...', Array)
+#13 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Ubrand\\\\stora...', Array)
+#14 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Ubrand\\\\resou...', Array)
+#15 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#18 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#19 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#20 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#21 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#22 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Ubrand\\app\\Http\\Middleware\\XSS.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XSS->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#33 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#40 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#41 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#42 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#43 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#44 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#61 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#62 C:\\Ubrand\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#63 C:\\Ubrand\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Ubrand\\\\publi...')
+#64 {main}
+"} 

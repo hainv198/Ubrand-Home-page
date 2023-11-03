@@ -284,6 +284,14 @@ class HomeController extends Controller
         }
     }
 
+    public function aboutUs() {
+        return view('layouts.homepage.components.about.index');
+    }
+
+    public function contactPage() {
+        return view('layouts.homepage.components.contact.index');
+    }
+
     // ChangeCurrentBusiness
     public function changeCurrantBusiness($business_id)
     {

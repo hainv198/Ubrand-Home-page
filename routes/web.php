@@ -55,8 +55,14 @@ use App\Http\Controllers\PaytrController;
 
 require __DIR__ . '/auth.php';
 
+// route homepage
 
 Route::get('/', [HomeController::class, 'landingPage'])->middleware('XSS')->name('home');
+Route::get('/about', [HomeController::class, 'aboutUs'])->middleware('XSS')->name('about-us');
+Route::get('/contact', [HomeController::class, 'contactPage'])->middleware('XSS')->name('contact-page');
+
+
+
 Route::any('cookie_consent', [SystemController::class, 'CookieConsent'])->name('cookie-consent');
 Route::any('card_cookie_consent', [BusinessController::class, 'cardCookieConsent'])->name('card-cookie-consent');
 

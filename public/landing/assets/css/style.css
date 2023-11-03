@@ -1571,6 +1571,67 @@ section.pricing {
 
 /*=== finish 23102023 ===*/
 
+/*=== start 01112023 ===*/
+
+.box-information-up {
+    border-radius: 110px 110px 0 0;
+    text-align: center;
+    padding: 65px 40px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 11.47%, #2f38ff21 78.49%);
+
+}
+
+.box-information-down {
+    border-radius: 0 0 110px 110px;
+    text-align: center;
+    padding: 65px 40px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 8.47%, #2f38ff17 104.49%);
+}
+
+.box-information-up .number , .box-information-down .number {
+    font-size: 46px;
+    line-height: 65px;
+    color: rgba(47, 56, 255, 1);
+}
+.information-business .des-information {
+    font-size: 16px;
+}
+
+.information-business .des-information:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 64%;
+    background-color: rgba(187, 190, 255, 1);
+    transform: translateX(-94%);
+    top: 57%;
+}
+
+.why-us-chose {
+    transform: translateY(-22%)
+}
+
+.image-card {
+    width: 100%;
+    object-fit: cover;
+}
+
+.ubrand-contact {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: linear-gradient(0deg, rgb(198 200 255 / 0%) 67%, rgb(151 156 255 / 31%) 100%);
+}
+
+@media screen and (max-width:612px) {
+    .information-business .des-information:after {
+       transform: translateX(-79%);
+    }
+    .why-us-chose {
+        transform: translateY(0)
+    }
+}
+
+/*=== finish 01112023 ===*/
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {

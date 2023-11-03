@@ -6,7 +6,9 @@
                 <div class="logo">
                     <!-- <h4>vCard<span>Go</span></h4> -->
                     
-                    <img src="<?php echo e(asset('landing/assets/img/logo_ubrand.png')); ?>" alt="img_header" >
+                    <a href="">
+                        <img src="<?php echo e(asset('landing/assets/img/logo_ubrand.png')); ?>" alt="img_header" >
+                    </a>
                 </div>
 
                 <ul class="nav-links ">
@@ -17,16 +19,21 @@
                             <li class="submenu-item"><a href="#" class="submenu-link"><?php echo e(__('Hướng dẫn')); ?></a></li>
                         </ul>
                     </li>
-                    <li><a href="#"><?php echo e(__('Về chúng tôi')); ?></a></li>
-                    <li><a href="#"><?php echo e(__('Nên tảng')); ?></a></li>
-                    <li><a href="#"><?php echo e(__('Liên hệ')); ?></a></li>
+                    <li>
+                        <a href="<?php echo e(route('about-us')); ?>"><?php echo e(__('Về chúng tôi')); ?></a>
+                    </li>
+                    <li>
+                        <a href="#"><?php echo e(__('Nên tảng')); ?></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo e(route('contact-page')); ?>"><?php echo e(__('Liên hệ')); ?></a>
+                    </li>
                     <li class="menu-item menu-dropdown menu_language_desktop">
                         <span class="menu-link" data-toggle="submenu"><img src="<?php echo e(asset('landing/assets/img/icons/vietnamese.svg')); ?>" alt="icon_header" > VN<i class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
                             <li class="submenu-item"><a class="" href="#" style="gap: 15px"><img src="<?php echo e(asset('landing/assets/img/icons/vietnamese.svg')); ?>" alt="icon_header" > EN</a></li>
                         </ul>
                     </li>
-
 
                     <div class="btn_login_register_mobile">
                         <li class="changeLangEN">
