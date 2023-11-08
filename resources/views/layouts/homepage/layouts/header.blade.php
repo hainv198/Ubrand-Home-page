@@ -21,15 +21,18 @@
                     <li class="menu-item menu-dropdown">
                         <span class="menu-link" data-toggle="submenu">{{__('Giải pháp  Business Card')}}<i class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
-                            <li class="submenu-item"><a href="#" class="submenu-link">{{__('Blog ')}}</a></li>
-                            <li class="submenu-item"><a href="#" class="submenu-link">{{__('Hướng dẫn')}}</a></li>
+                            <li class="submenu-item"><a href="{{route('blog-page')}}" class="submenu-link">{{__('Blog ')}}</a></li>
+                            <li class="submenu-item"><a href="{{route('training-page')}}" class="submenu-link">{{__('Hướng dẫn')}}</a></li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="{{route('solution-page')}}">{{__('Giải pháp cá nhân')}}</a>
                     </li>
                     <li>
                         <a href="{{route('about-us')}}">{{__('Về chúng tôi')}}</a>
                     </li>
                     <li>
-                        <a href="#">{{__('Nên tảng')}}</a>
+                        <a href="{{route('communication-page')}}">{{__('Nên tảng')}}</a>
                     </li>
                     <li>
                         <a href="{{route('contact-page')}}">{{__('Liên hệ')}}</a>

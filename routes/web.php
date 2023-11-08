@@ -60,6 +60,10 @@ require __DIR__ . '/auth.php';
 Route::get('/', [HomeController::class, 'landingPage'])->middleware('XSS')->name('home');
 Route::get('/about', [HomeController::class, 'aboutUs'])->middleware('XSS')->name('about-us');
 Route::get('/contact', [HomeController::class, 'contactPage'])->middleware('XSS')->name('contact-page');
+Route::get('/blog', [HomeController::class, 'blogPage'])->middleware('XSS')->name('blog-page');
+Route::get('/training', [HomeController::class, 'trainingPage'])->middleware('XSS')->name('training-page');
+Route::get('/solution', [HomeController::class, 'solutionPage'])->middleware('XSS')->name('solution-page');
+Route::get('/communication', [HomeController::class, 'communicationPage'])->middleware('XSS')->name('communication-page');
 
 
 

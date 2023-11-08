@@ -15,15 +15,18 @@
                     <li class="menu-item menu-dropdown">
                         <span class="menu-link" data-toggle="submenu"><?php echo e(__('Giải pháp  Business Card')); ?><i class="bx bx-chevron-down"></i></span>
                         <ul class="submenu">
-                            <li class="submenu-item"><a href="#" class="submenu-link"><?php echo e(__('Blog ')); ?></a></li>
-                            <li class="submenu-item"><a href="#" class="submenu-link"><?php echo e(__('Hướng dẫn')); ?></a></li>
+                            <li class="submenu-item"><a href="<?php echo e(route('blog-page')); ?>" class="submenu-link"><?php echo e(__('Blog ')); ?></a></li>
+                            <li class="submenu-item"><a href="<?php echo e(route('training-page')); ?>" class="submenu-link"><?php echo e(__('Hướng dẫn')); ?></a></li>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="<?php echo e(route('solution-page')); ?>"><?php echo e(__('Giải pháp cá nhân')); ?></a>
                     </li>
                     <li>
                         <a href="<?php echo e(route('about-us')); ?>"><?php echo e(__('Về chúng tôi')); ?></a>
                     </li>
                     <li>
-                        <a href="#"><?php echo e(__('Nên tảng')); ?></a>
+                        <a href="<?php echo e(route('communication-page')); ?>"><?php echo e(__('Nên tảng')); ?></a>
                     </li>
                     <li>
                         <a href="<?php echo e(route('contact-page')); ?>"><?php echo e(__('Liên hệ')); ?></a>

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{ asset('landing/assets/css/owl.carousel.min.css') }}">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="{{ asset('landing/assets/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script src="{{ asset('landing/assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('landing/assets/js/owl.carousel.js') }}"></script>
     <!-- bootstrap 5 -->
@@ -102,9 +103,11 @@
     navSlide();
     //# sourceURL=pen.js
 </script>
+<script src="{{asset('landing/assets/js/custom.js')}}"></script>
 <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 
 </html>

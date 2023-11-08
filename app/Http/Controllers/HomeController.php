@@ -292,6 +292,19 @@ class HomeController extends Controller
         return view('layouts.homepage.components.contact.index');
     }
 
+    public function blogPage() {
+        return view('layouts.homepage.components.blog.index');
+    }
+   public function trainingPage() {
+        return view('layouts.homepage.components.training.index');
+    }
+   public function solutionPage() {
+        return view('layouts.homepage.components.solution.index');
+    }
+   public function communicationPage() {
+        return view('layouts.homepage.components.communication.index');
+    }
+
     // ChangeCurrentBusiness
     public function changeCurrantBusiness($business_id)
     {

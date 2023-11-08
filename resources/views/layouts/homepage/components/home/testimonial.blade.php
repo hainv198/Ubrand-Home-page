@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <section class="pricing py-5" style="height: 550px;">
     <div class="container container-mobile">
@@ -249,4 +248,3 @@
         }
     });
 </script>
-

@@ -1,4 +1,4 @@
-<section class="slice slice-xl has-floating-items bg-gradient-primary mt-5 pt-5 pb-5" id="sct-call-to-action" style="background: #979cff45">
+<section class="slice slice-xl has-floating-items bg-gradient-primary pt-5 pb-5" id="sct-call-to-action" style="background: #979cff45">
     <div class="container-fluid">
         <div class="row justify-content-center p-3">
             <div class="col-md-12">
